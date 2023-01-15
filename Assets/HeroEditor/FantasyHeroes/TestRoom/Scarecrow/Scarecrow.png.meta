@@ -36,7 +36,7 @@ TextureImporter:
       213: -4355840616382916082
     second: Stick
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -56,6 +56,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -65,8 +67,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -87,9 +89,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -170,7 +176,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ce527d65951b0234195022a13a1f2d68
-      internalID: 7208014375415968472
+      internalID: 1442240968710923744
       vertices: []
       indices: 
       edges: []
@@ -191,7 +197,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: eab949a5bc422614091ccd95da198999
-      internalID: -3959160474584310100
+      internalID: -5673618120071735642
       vertices: []
       indices: 
       edges: []
@@ -269,6 +275,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      HeadNormal: 1442240968710923744
+      RightArm: 8137017750165726945
+      LeftArm: -8626365529436468613
+      Stick: -4355840616382916082
+      Body: -5673618120071735642
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
