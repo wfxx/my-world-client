@@ -5,9 +5,18 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-0:
       value: 0752515201575b095459557441225d44414e1e7f7a7a24692b2d4c63b5b43561
       flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 01500d0751000d590c5d5c7044770c4746154c7b7a7122617b2a4435b5b63560
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5a53045300050c0b5859097549200944454f1c7929707f64747e4f36b6b6626d
+      flags: 0
+=======
+>>>>>>> parent of 80aeae55 (* 升级unity版本)
     RecentlyUsedScenePath-0:
       value: 2242470311464673081c0307142a4b1f04582f2f3f3c232223011821ede52778d9d01ed4a92f31352d1b
       flags: 0
@@ -46,13 +55,9 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-  m_DesiredImportWorkerCount: 2
-  m_StandbyImportWorkerCount: 2
-  m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
   m_VCProjectOverlayIcons: 1
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
-  m_ArtifactGarbageCollection: 1
