@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 2973113692156056748}
   - component: {fileID: 7133993745541572168}
   m_Layer: 5
-  m_Name: Button_Login_Account
+  m_Name: Button_Login_GameCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WelCome My World
+  m_text: WelCome To My World
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d70f485aa27dc43f79a8fd168f58435c, type: 2}
   m_sharedMaterial: {fileID: 5416806443266638455, guid: d70f485aa27dc43f79a8fd168f58435c, type: 2}
@@ -5424,7 +5424,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5557,6 +5556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 238236ac210b24f1ab4ffde676efc66c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoginGuest: {fileID: 0}
+  LoginGameCenter: {fileID: 0}
+  LoginFacebook: {fileID: 0}
+  LoginGoogle: {fileID: 0}
 --- !u!1 &2973113692477805202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10340,7 +10343,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10644,7 +10646,7 @@ GameObject:
   - component: {fileID: 2973113692654915001}
   - component: {fileID: 2973113692654915002}
   m_Layer: 5
-  m_Name: Button_Login__Group
+  m_Name: Button_Login_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15679,7 +15681,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15845,6 +15846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2973113693372251128}
+  - component: {fileID: 2970224588309842622}
   m_Layer: 5
   m_Name: LoginWidget
   m_TagString: Untagged
@@ -15874,6 +15876,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2970224588309842622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973113693372251135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238236ac210b24f1ab4ffde676efc66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoginGuest: {fileID: 163205766873884798}
+  LoginGameCenter: {fileID: 7133993745541572168}
+  LoginFacebook: {fileID: 1598806763075635940}
+  LoginGoogle: {fileID: 4447805519732844260}
 --- !u!1 &2973113693446601347
 GameObject:
   m_ObjectHideFlags: 0
@@ -16274,7 +16292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sign in with Account
+  m_text: Sign in with Game Center
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d70f485aa27dc43f79a8fd168f58435c, type: 2}
   m_sharedMaterial: {fileID: 5416806443266638455, guid: d70f485aa27dc43f79a8fd168f58435c, type: 2}
