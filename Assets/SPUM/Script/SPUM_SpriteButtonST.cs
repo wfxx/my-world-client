@@ -49,7 +49,7 @@ public class SPUM_SpriteButtonST : MonoBehaviour
 
     public void DrawItem()
     {
-        if(index == 10)
+        if(index == 12)
         {
             _Manager.AllRandom();
         }

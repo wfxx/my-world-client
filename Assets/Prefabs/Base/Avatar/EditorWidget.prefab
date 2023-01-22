@@ -1249,7 +1249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _use: 0
   _mainSprite: {fileID: 6970266243259427828}
-  index: 9
+  index: 10
   _Manager: {fileID: 7631008000052018606}
   _colorBG: {fileID: 2204284396994688156}
   _textureList: []
