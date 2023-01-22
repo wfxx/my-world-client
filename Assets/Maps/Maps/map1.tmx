@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="33" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/legacy1.tsx"/>
+ <tileset firstgid="4811" source="../Tilesets/legacy2.tsx"/>
+ <group id="21" name="背景">
+  <layer id="7" name="草坪" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJydWEuO1DAUzA5QpAlzg7j7ADA3gJFwr5kd9BHYsoHhBMAiWcOO6WOwhCsgJeueHjgAg0Rawla7lHLFSWdYPDkf+73Ke/XK7u7KLLMmyzo3rsLY0TM/roLhGnPwbB/u9+HZnnypT8zVGCkfsE78cYx9WO/tejmMqxhT9+z3/jLGtqd3jbOnwfjd9sTFTtjO2XPn7yLYbtnj9eOLIstezrR1cYj1dZFlv93a2/KA47Yc2h/KnV/zyK19nLAzZ58Ik9bkrvhswPeE8gTbl/31udTwGD7mYfcf+fvu6rBx4zYfx2cJI/AB4xx8KT5+ce+/nczLncf2awIf20fh8Fx82s/dzBx6fB4b6vvejR+CeSxt6JsqXNcmjnMMH2sLRo+3nsnBdy7Hp6E/7jl/rxdDe7DsfbcS6xg+1hdL65o79Aj6V3UOdcR9a2IeHcO3FX1hvZ2TP98bV8WhP/waaMuUMeap/rgIGoj5zLs6XPseuQrGvaK4oEtTvcH6x7o+hg85rEycN3CvCZbq53XRz7VhnvfBvcH2V/TvnLQshe+zi/PWjZdFvJ/WgSP+GUbmDTCCb62J9zfe15h3z8wQ35j+eWwelw3+W8oV7mvhNd5VAeOmiDWWNaNLcEzxTenLWdAr3te6ss9RbWJNhG5hjp59uGeBq6LnbSJ/8OG/+01xqCXM5+4m72NYE9cJMWoTawE4qTlCfi2N+GaY4uN+tLLW526Xx1xhbBWtqUzPSTxDfvlbeL9nv7hWfJiP770hPD/zfj9CjlEP5A3POQeNSePAiG9ozLCvFR9ruMfi8dWm5/Euj/nLOeT+1XNmV8Y1H6uzlW9M8Y/zzn49xuu871U+k2MNcw/XK4nNNcYccEP3cj0z8Dnph+k1GLF9PpUDrCMcS/Or+6eVNXwWwruK8mlNnL/C9etDsdOij4e64xo+OT5rodbGyhzlB59XOP9T5+A16SvyhF4Fv/X3jeoc9wXnGnNQF+YH76XAPIZP9Y11LaURvEfzvfYZeFIT3opqrHkfw4f9Ft+a+h2p9WUu8n7BZ0/VKfbfmvg7p+rL2tyYuJ7KNcXB+JAX1j7wGHzhmvC54hg+zhWvVw1OcZCfwxf3L+ZVJtZ67OeIMYVP+3GV8M//V6i+sPbxGUgx67mNa8VnYNimiOuW0l7VA/1dwdqnZyHVcHCduQBfrxZD3nOdeO9inmkM3d8wn/Ol+yGftXgNcPwD+ucuXQ==
+  </data>
+  </layer>
+  <layer id="18" name="池塘" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztlcENwjAMRT1BlHYBYBMoDAKMU1FGSZcBwSbAjViNhUmTigtxD/6SVbWXPr0ftwAajUaj0fw3DwvwstIU6awrgI2frZ9dJU0zTuuZTmHOgQ99PmfglNwhW28Hh8hFzySdcrapQUYJj9Srs8P1aL7vY8bSfbcZX32Cj56V7Pvi33P9oV+cgxnvUIks6g9j3Guq59J8mFzPuc6l+ThLfBZvfu4z9CflDoNncBlmal+6GfwDyeXepPk6IYcxH2fCM0hszso65N9EF7ga5o54pR1yZ010L7HDPOgQd4V3yh1KuuPhe81nVUuTlckb4J147w==
+  </data>
+  </layer>
+  <layer id="26" name="桥" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztztENABAQRMEr4apEeaiQFvyIyEzyvncjAAAA3lEyoh7W8t6/vrfGYfPiP4AfLf+JERE=
+  </data>
+  </layer>
+  <layer id="25" name="路" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFAxWkCI80C7AD6RG3UcRSAW6T1oYQqcOcrdKD3L3IYflYMw3gz1+qR1mHMqU6ZcQQeVTIy8XKzEwlEAxJ4XuExdB4EQRSPiB0p8UBXl5rxJlbsIHqJH+Btp9AMkZDHk=
+  </data>
+  </layer>
+  <layer id="22" name="围池" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJzt0LsNACAIAFFHoHU9Pws4l/NZq52NFVExuZdQUXDBOUxBXhf8rRr/H3069OnQp/OiL46baZks+30z/j8AAADgpOLv3Om+GguD
+  </data>
+  </layer>
+  <layer id="8" name="围墙" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJxbJsXAsJwI3CDNwPAWSDdKE6eeUjNWAPFnIP4AxB+JwKeAZpoD8Wlp4tRTagbIXbbSEHowglH3UQZG3UcZGHUfZWDUfZSBUfcxMEyTYGCYTgSeITEw7nuAxV5i1Y26b9R9lIJR91EGtCQRZUipJKpcCZKcjiSm3tHymTIw6j7KwKj7KAPDwX2LgHKLgXjJAPgB5j4rILbGgZHHS3CpIRcTMttGGuK+FiBuxYGRx0twqSEXE2N2OxADAIGCx34=
+  </data>
+  </layer>
+  <layer id="27" name="围池" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztzsEJACAMBEFLsEbrsz7f1iBREnDmfXDbGllGf7O9ZSZ8ntAXoy9GX0z1vlW8DwAAfrMBOPAHyw==
+  </data>
+  </layer>
+  <layer id="19" name="树" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztlT9OwzAUh99SWBqSiXgMJyqdgI22Y8/STHCJ/jkBdAJWjgCXgLLys1qLF8euUzWxi+RPesqTneHTz88yUcTEU070jFrn7n9fUqJX1Fta7btCJEQ9QXSGOhd/njbnJCO6QKVZte/SbwCva9SQeXJnzg1cblF3WbXvMkMF9+S9js8MZX77uNT25czZMjwFfM/fofievwfM16NhxmzI8/WVoZy9D7h9im1vmkV9LcnC3mEX3MdHhvr9lIyxNrHca/VmhLzDS7itUO/9+h7PSvc8lhneqjKvf3kv2cDtx5Kf6XzbYrbzMFGyPXXm9/iOGni26Vda/PQ9eW/nqIXjfWmTpvmp3L5Q3579muTnOzdF6fBT+fnOLXL6XBWhDfYzLUIbRCKR/8wvIgFR+Q==
+  </data>
+  </layer>
+  <layer id="24" name="树" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztk08KgkAYxb+CauOoi0KhjeepFrXvBJ2nrlJBubJWadQF6io9SbECJy2crz/zg4e6GPjxxkek+WZWDtEa8R1uk4w5XBbIEmm4RE2k5crPBBbRBtla9++VAJcaUkeOBtEQz9ETP5X04NJHBkhXFDujrLsfRen/VxKVPlP8c7NkC3uj+DnTJrLs6js8we385lar7DPurF1ws4+kPsLO+uRgl3PvQeLHtYvIuPbbyelXMPWV4rx47yo4lNgyJ9GHe8Z3HDI4jk359+1m8/bLSbrZULJfzX/hedwGciYet4FGo5FxAcO/MdA=
+  </data>
+  </layer>
+  <layer id="28" name="树" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztzjENACAMAMEaIMW/HcAXCGDr0OUu+f0jAKBmZcR+new++Ruz+wAAAKi4LE8Clw==
+  </data>
+  </layer>
+  <layer id="17" name="房屋" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJzt18syHGEYxvH3AubIxMz0uAQSYR+hiiVhGeOQEJcQIlJlgXG6AIcsqRIMNu5AnBLHRC4gB1eQUxVV/GcxdNHTPZ+vGwtP1W8xX5fuZ6a6X1+L3Oc20x8UGcAgUkHndS8yZ4jMYwFpLBoXx3a49i72sB90Xvciv+nzB3/xD/9N/WIhkTgMJELO617kSUKkEk9RheqEt9dTzRB9hjGCUYyZ+tX5ROrxDA1o9FmveZkD+nzBVxzim6nfONeewCSm8N5nvWaXtajIOjawGXW3+3eu/QM/8QtHPus1u4RiImEUoDDmbr8Sv0gpHuIRyvzWa3Zpo9MLtKDV5X6vuXYXuvEGPf6ra8mA/Tnm6DSPWXxwuV82x8yQE4/niE5qwiK14dtucf3081wOYBApDLnwnG7FpW8TGyiDzrl26LOLPezjwIV+EUP6ClGAHs1+Me77OAwkUKzwHOSa9y30akYSq5r9XtKnHR14hU6FfrnmfZheIQQRMPT6LdAnjUUsYVmhn+q8zzftDnMv36jO+3yTDlzMxZVLe8DM5+wxp/2E1f8At5Kdi6eX+mU+Z4+p7iduOl7dX25F9/5S2Z8xx+UxylERz+8cuveXyv6MOS5v0Yt3pn5259B919vi+37CZ2w7/H7McfmINayb+j2nU1OOPZ7uu16E8z1AEaIOvx9zXJjnwlzPzPfzTPN3Mzn2eDf5rnefu5UzYliozA==
+  </data>
+  </layer>
+  <layer id="20" name="屋顶" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJzt1rcNQkEQRdEpASOxu78STEIdGAnTCaYTTCcYCdMFEGE64OZLgITQTDBXOvkLn4jn/bdNENlih33QXpNXiiJlVFCN2mvyOmzqooe+wX0LNi2xwtrgvjubHnjiZXBfPYk00EQraa/Jm7BpihnmBvd5nuf92iVK+4obtLd4nvd9B37JESecDX6UWiESEJEK7TV5AzYNMcLY4D7P+9Qbn6wayg==
+  </data>
+  </layer>
+  <layer id="23" name="树林" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztztENQwAABuGfKiMwE1UsqxK6W+/dADS5L7n3SyRJOlvb5EMb7XTQt736Knl0SUWhgkp6Uk1Nd/VdMvLwpp4GetFEMy03+JMkSZL+0Q/jCwjs
+  </data>
+  </layer>
+ </group>
+ <group id="31" name="效果">
+  <layer id="32" name="碰撞层" width="40" height="30">
+   <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
+  </data>
+  </layer>
+ </group>
+</map>
