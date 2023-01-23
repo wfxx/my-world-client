@@ -22,7 +22,7 @@
 
 using System;
 
-namespace Net {
+namespace NetWork {
     public class Converter {
         public static Int32 GetBigEndian(Int32 value) {
             if (BitConverter.IsLittleEndian) {

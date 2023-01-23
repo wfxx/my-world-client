@@ -5513,7 +5513,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2973113692387609218}
-  - component: {fileID: 5685651212778147870}
   m_Layer: 5
   m_Name: Login
   m_TagString: Untagged
@@ -5544,22 +5543,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5685651212778147870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2973113692387609217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 238236ac210b24f1ab4ffde676efc66c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoginGuest: {fileID: 0}
-  LoginGameCenter: {fileID: 0}
-  LoginFacebook: {fileID: 0}
-  LoginGoogle: {fileID: 0}
 --- !u!1 &2973113692477805202
 GameObject:
   m_ObjectHideFlags: 0
@@ -15846,7 +15829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2973113693372251128}
-  - component: {fileID: 2970224588309842622}
+  - component: {fileID: 484608344827867415}
   m_Layer: 5
   m_Name: LoginWidget
   m_TagString: Untagged
@@ -15876,7 +15859,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2970224588309842622
+--- !u!114 &484608344827867415
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15885,13 +15868,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2973113693372251135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 238236ac210b24f1ab4ffde676efc66c, type: 3}
+  m_Script: {fileID: 11500000, guid: a9672dfee0a6a40508719bceae7d44ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoginGuest: {fileID: 163205766873884798}
-  LoginGameCenter: {fileID: 7133993745541572168}
-  LoginFacebook: {fileID: 1598806763075635940}
-  LoginGoogle: {fileID: 4447805519732844260}
+  _btnGameCenter: {fileID: 7133993745541572168}
+  _btnFaceBook: {fileID: 1598806763075635940}
+  _btnGoogle: {fileID: 4447805519732844260}
+  _btnGuest: {fileID: 163205766873884798}
 --- !u!1 &2973113693446601347
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Collections;
 using System.Collections.Generic;
+using Const;
 using NetWork;
 
 public enum DisType
