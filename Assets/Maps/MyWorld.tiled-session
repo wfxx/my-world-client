@@ -1,0 +1,78 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Maps/map-city.tmx",
+    "expandedProjectPaths": [
+        "Maps",
+        "Tilesets"
+    ],
+    "fileStates": {
+        "Maps/map-city.tmx": {
+            "scale": 1.200859375,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 320.1873658187496,
+                "y": 238.9955110272591
+            }
+        },
+        "Maps/map1.tmx": {
+            "expandedGroupLayers": [
+                31,
+                5,
+                3
+            ],
+            "scale": 1.059,
+            "selectedLayer": 14,
+            "viewCenter": {
+                "x": 320.58545797922574,
+                "y": 240.79320113314446
+            }
+        },
+        "Tilesets/autotile0.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4.52
+        },
+        "Tilesets/legacy.tsx": {
+            "scaleInDock": 0.948,
+            "scaleInEditor": 1.56
+        },
+        "Tilesets/legacy1.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/legacy2.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/original.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.56
+        },
+        "Tilesets/stacked.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.56
+        }
+    },
+    "last.imagePath": "/Users/tobyxia/Documents/GitHub/my-world-client/Assets/Maps/Images",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "Tilesets/original.tsx",
+        "Tilesets/stacked.tsx",
+        "Maps/map1.tmx",
+        "Maps/map-city.tmx"
+    ],
+    "project": "MyWorld.tiled-project",
+    "recentFiles": [
+        "Tilesets/original.tsx",
+        "Tilesets/stacked.tsx",
+        "Maps/map1.tmx",
+        "Maps/map-city.tmx",
+        "Tilesets/legacy.tsx",
+        "Tilesets/autotile0.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
