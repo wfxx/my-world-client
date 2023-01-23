@@ -1,28 +1,34 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Common.Base;
+using Const.Login;
 using UnityEngine;
 
-public class LoginScene : SceneBase
+namespace Modules.Login
 {
-    [SerializeField] private GameObject _widgetParent;
-    [SerializeField] private GameObject _dialogParent;
-    [SerializeField] private GameObject _downloadWidget;
-    [SerializeField] private GameObject _loginWidget;
-    [SerializeField] private GameObject _startWidget;
-
-    protected override void InitUI()
+    public class LoginScene : SceneBase
     {
-        LoginPresenter.instance.RegisterUI(this);
-        
-        _downloadWidget.SetActive(false);
-        _loginWidget.SetActive(true);
-        _startWidget.SetActive(false);
-    }
+        [SerializeField] private GameObject _widgetParent;
+        [SerializeField] private GameObject _dialogParent;
+        [SerializeField] private GameObject _downloadWidget;
+        [SerializeField] private GameObject _loginWidget;
+        [SerializeField] private GameObject _startWidget;
 
-    protected override void InitEvent()
-    {
+        protected override void InitUI()
+        {
+            LoginPresenter.instance.RegisterUI(this);
         
+            ShowWidget(LoginWidgetType.Login);
+        }
+
+        protected override void InitEvent()
+        {
+        
+        }
+
+        public void ShowWidget(LoginWidgetType type)
+        {
+            _downloadWidget.SetActive(type == LoginWidgetType.Download);
+            _loginWidget.SetActive(type == LoginWidgetType.Login);
+            _startWidget.SetActive(type == LoginWidgetType.Start);
+        }
     }
 }

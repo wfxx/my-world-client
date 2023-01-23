@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class StartWidget : MonoBehaviour
+namespace Modules.Login.Widget
 {
-    // Start is called before the first frame update
-    void Start()
+    public class StartWidget : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private Button _btnEditor;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [SerializeField] private Button _btnEnter;
+
+        private void Start()
+        {
+            _btnEnter.onClick.AddListener(OnClickEnter);
+            _btnEditor.onClick.AddListener(OnClickEditor);
+        }
+
+        private void OnClickEnter()
+        {
+            LoginPresenter.instance.EnterHall();
+        }
+
+        private void OnClickEditor()
+        {
+            LoginPresenter.instance.ShowEidtorView();
+        }
     }
 }

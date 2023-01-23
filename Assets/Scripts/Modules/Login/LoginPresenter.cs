@@ -1,49 +1,67 @@
-﻿using UnityEngine;
-using Common.Base;
+﻿using Common.Base;
 using Common.Event;
 using Const;
 using Const.Login;
-using Modules.Login;
 using Myworld;
 
-public class LoginPresenter : PresenterBase<LoginPresenter>
+namespace Modules.Login
 {
-    public void ShowLoginView()
+    public class LoginPresenter : PresenterBase<LoginPresenter>
     {
-        currScene.ShowDialog(PrefabPath.LoginDialog);
-    }
-    
-    public void OnSendRegisterRequest(string username, string password)
-    {
-        LoginModel.instance.OnSendRegisterRequest(username, password);
-    }
-    
-    public void OnSendLoginRequest(string username, string password)
-    {
-        LoginModel.instance.OnSendLoginRequest(username, password);
-    }
+        protected LoginScene currScene;
+        
+        public void RegisterUI(LoginScene scene)
+        {
+            currScene = scene;
+        }
+        
+        public void ShowLoginView()
+        {
+            currScene.ShowDialog(PrefabPath.LoginDialog);
+        }
 
-    public void OnRegisterResponse(RegisterResponse response)
-    {
-        if (response.Issuccess)
+        public void ShowEidtorView()
         {
-            // 注册成功，进入大厅
+            currScene.ShowDialog(PrefabPath.EditorDialog);
         }
-        else
-        {
-            
-        }
-    }
 
-    public void OnLoginResponse(LoginResponse response)
-    {
-        if (response.Issuccess)
+        public void EnterHall()
         {
-            
+            EventManager.instance.PatchEvent(EventConst.SceneChange, SceneType.Hall);
         }
-        else
+    
+        public void OnSendRegisterRequest(string username, string password)
         {
-            
+            LoginModel.instance.OnSendRegisterRequest(username, password);
+        }
+    
+        public void OnSendLoginRequest(string username, string password)
+        {
+            LoginModel.instance.OnSendLoginRequest(username, password);
+        }
+
+        public void OnRegisterResponse(RegisterResponse response)
+        {
+            if (response.Issuccess)
+            {
+                currScene.ShowWidget(LoginWidgetType.Start);
+            }
+            else
+            {
+                ShowToast(response.Tips);
+            }
+        }
+
+        public void OnLoginResponse(LoginResponse response)
+        {
+            if (response.Issuccess)
+            {
+                currScene.ShowWidget(LoginWidgetType.Start);
+            }
+            else
+            {
+                ShowToast(response.Tips);
+            }
         }
     }
 }

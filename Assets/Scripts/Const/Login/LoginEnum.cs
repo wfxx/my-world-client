@@ -15,5 +15,13 @@ namespace Const.Login
         InError,
     }
 
-    
+    public enum LoginWidgetType
+    {
+        // 热更新中
+        Download,
+        // 登录/注册
+        Login,
+        // 选择角色/编辑形象
+        Start
+    }
 }
