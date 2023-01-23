@@ -15849,7 +15849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6490618628454187348, guid: 6d965b87ea0804a2a92292ebbc9ab8f3, type: 3}
       propertyPath: m_Name
-      value: ShowWidget
+      value: UserRole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d965b87ea0804a2a92292ebbc9ab8f3, type: 3}

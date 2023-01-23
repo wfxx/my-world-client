@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c224680dc17342fba263ae84aa4c9ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _panelParent: {fileID: 1035802172}
+  _widgetParent: {fileID: 0}
   _dialogParent: {fileID: 2003793085}
   _downloadWidget: {fileID: 1412000482}
   _loginWidget: {fileID: 742312257}
