@@ -8,21 +8,13 @@ using UnityEngine.UI;
 public class CommonDialog : MonoBehaviour
 {
     [SerializeField] private Text _commonTips;
-    
     [SerializeField] private GameObject _objTypeOne;
-
     [SerializeField] private GameObject _objTypeTwo;
-
     [SerializeField] private Button _btnLeft;
-
     [SerializeField] private Button _btnRight;
-
     [SerializeField] private Button _btnCenter;
-    
     [SerializeField] private Text _txtLeft;
-
     [SerializeField] private Text _txtRight;
-
     [SerializeField] private Text _txtCenter;
 
     public void ShowDialog(CommonDialogData data)
